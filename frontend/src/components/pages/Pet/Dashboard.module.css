@@ -1,0 +1,110 @@
+.petslist_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2em;
+}
+
+.petslist_header h1 {
+  margin: 0;
+  font-size: 2em;
+  color: #333;
+}
+
+.petslist_header a {
+  text-decoration: none;
+  background-color: #16479d;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  padding: 0.7em 1em;
+  border-radius: 8px;
+  border: 2px solid #16479d;
+}
+
+.petslist_header a:hover {
+  background-color: transparent;
+  color: #16479d;
+}
+
+.petslist_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.petlist_row {
+  border-bottom: 1px solid #eee;
+  padding: 1.5em;
+  margin: 1em 0;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  transition: box-shadow 0.3s ease;
+}
+
+.petlist_row:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.petlist_row img {
+  margin-right: 1.5em;
+  border-radius: 8px;
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
+
+.petlist_row span {
+  font-size: 1em;
+  color: #333;
+  margin-right: 1em;
+}
+
+.actions {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+.actions a,
+.actions button {
+  text-decoration: none;
+  color: #16479d;
+  border: 2px solid #16479d;
+  border-radius: 8px;
+  padding: 0.5em 1em;
+  background-color: #fff;
+  margin-left: 0.5em;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-size: 0.9em;
+}
+
+.actions a:hover,
+.actions button:hover {
+  background-color: #16479d;
+  color: #fff;
+}
+
+.actions .conclude_btn {
+  color: #25b456;
+  border-color: #25b456;
+}
+
+.actions .conclude_btn:hover {
+  color: #fff;
+  background-color: #25b456;
+}
+
+.contacts {
+  margin-left: 2em;
+}
+
+.contacts p {
+  margin-bottom: 0.5em;
+  font-size: 1em;
+  color: #666;
+}
