@@ -20,5 +20,5 @@
   ● Axios para requisições HTTP                 
 
 ## 🤳 Sobre o Projeto     
-AdoteMe é uma aplicação web desenvolvida para facilitar o processo de adoção de animais de estimação. Com esta plataforma, os usuários podem encontrar, conhecer e adotar pets que precisam de um novo lar. O projeto foi criado utilizando Node.js para o backend, React para o frontend e MongoDB como banco de dados.
+AdoteMe é uma aplicação web inovadora projetada para simplificar e promover o processo de adoção de animais de estimação. A plataforma permite que usuários encontrem, conheçam e adotem pets que estão à procura de um novo lar. O projeto é construído utilizando tecnologias modernas, com Node.js no backend, React no frontend e MongoDB como banco de dados.
  
